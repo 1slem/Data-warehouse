@@ -1,0 +1,192 @@
+2024-11-04 09:57:41,314 - INFO - Starting data audit process.
+2024-11-04 09:57:52,106 - ERROR - Path does not exist: output/bronze/suppliers/2024-11-04/
+2024-11-04 09:57:52,106 - INFO - Auditing missing values for sales
+2024-11-04 09:57:55,272 - ERROR - 1433 missing values found in sales
+2024-11-04 09:57:55,300 - INFO - Auditing duplicates for customers.csv
+2024-11-04 09:57:55,301 - INFO - No duplicates found in column 'CustomerID' of customers.csv
+2024-11-04 09:57:55,301 - INFO - No duplicates found in column 'CompanyName' of customers.csv
+2024-11-04 09:57:55,301 - INFO - No duplicates found in column 'ContactName' of customers.csv
+2024-11-04 09:57:55,302 - ERROR - 78 duplicates found in column 'ContactTitle' of customers.csv
+2024-11-04 09:57:55,302 - INFO - No duplicates found in column 'Address' of customers.csv
+2024-11-04 09:57:55,302 - ERROR - 22 duplicates found in column 'City' of customers.csv
+2024-11-04 09:57:55,303 - ERROR - 72 duplicates found in column 'Region' of customers.csv
+2024-11-04 09:57:55,303 - ERROR - 5 duplicates found in column 'PostalCode' of customers.csv
+2024-11-04 09:57:55,303 - ERROR - 68 duplicates found in column 'Country' of customers.csv
+2024-11-04 09:57:55,304 - INFO - No duplicates found in column 'Phone' of customers.csv
+2024-11-04 09:57:55,304 - ERROR - 21 duplicates found in column 'Fax' of customers.csv
+2024-11-04 09:57:55,304 - INFO - Auditing duplicates for products.csv
+2024-11-04 09:57:55,305 - INFO - No duplicates found in column 'ProductID' of products.csv
+2024-11-04 09:57:55,305 - ERROR - 1 duplicates found in column 'ProductName' of products.csv
+2024-11-04 09:57:55,305 - ERROR - 48 duplicates found in column 'SupplierID' of products.csv
+2024-11-04 09:57:55,305 - ERROR - 69 duplicates found in column 'CategoryID' of products.csv
+2024-11-04 09:57:55,306 - ERROR - 7 duplicates found in column 'QuantityPerUnit' of products.csv
+2024-11-04 09:57:55,306 - ERROR - 15 duplicates found in column 'UnitPrice' of products.csv
+2024-11-04 09:57:55,306 - ERROR - 24 duplicates found in column 'UnitsInStock' of products.csv
+2024-11-04 09:57:55,306 - ERROR - 64 duplicates found in column 'UnitsOnOrder' of products.csv
+2024-11-04 09:57:55,307 - ERROR - 70 duplicates found in column 'ReorderLevel' of products.csv
+2024-11-04 09:57:55,307 - ERROR - 75 duplicates found in column 'Discontinued' of products.csv
+2024-11-04 09:57:55,307 - INFO - Auditing duplicates for sales.csv
+2024-11-04 09:57:55,307 - ERROR - 1325 duplicates found in column 'OrderID' of sales.csv
+2024-11-04 09:57:55,308 - ERROR - 2066 duplicates found in column 'CustomerID' of sales.csv
+2024-11-04 09:57:55,308 - ERROR - 2146 duplicates found in column 'EmployeeID' of sales.csv
+2024-11-04 09:57:55,308 - ERROR - 1673 duplicates found in column 'OrderDate' of sales.csv
+2024-11-04 09:57:55,308 - ERROR - 1699 duplicates found in column 'RequiredDate' of sales.csv
+2024-11-04 09:57:55,309 - ERROR - 1767 duplicates found in column 'ShippedDate' of sales.csv
+2024-11-04 09:57:55,309 - ERROR - 2152 duplicates found in column 'ShipVia' of sales.csv
+2024-11-04 09:57:55,310 - ERROR - 1352 duplicates found in column 'Freight' of sales.csv
+2024-11-04 09:57:55,310 - ERROR - 2065 duplicates found in column 'ShipName' of sales.csv
+2024-11-04 09:57:55,310 - ERROR - 2065 duplicates found in column 'ShipAddress' of sales.csv
+2024-11-04 09:57:55,310 - ERROR - 2085 duplicates found in column 'ShipCity' of sales.csv
+2024-11-04 09:57:55,311 - ERROR - 2135 duplicates found in column 'ShipRegion' of sales.csv
+2024-11-04 09:57:55,311 - ERROR - 2071 duplicates found in column 'ShipPostalCode' of sales.csv
+2024-11-04 09:57:55,311 - ERROR - 2133 duplicates found in column 'ShipCountry' of sales.csv
+2024-11-04 09:57:55,312 - ERROR - 1325 duplicates found in column 'OrderID.1' of sales.csv
+2024-11-04 09:57:55,312 - ERROR - 2078 duplicates found in column 'ProductID' of sales.csv
+2024-11-04 09:57:55,312 - ERROR - 2031 duplicates found in column 'UnitPrice' of sales.csv
+2024-11-04 09:57:55,312 - ERROR - 2094 duplicates found in column 'Quantity' of sales.csv
+2024-11-04 09:57:55,313 - ERROR - 2140 duplicates found in column 'Discount' of sales.csv
+2024-11-04 09:57:55,313 - INFO - Auditing duplicates for suppliers.csv
+2024-11-04 09:57:55,313 - INFO - No duplicates found in column 'SupplierID' of suppliers.csv
+2024-11-04 09:57:55,313 - INFO - No duplicates found in column 'CompanyName' of suppliers.csv
+2024-11-04 09:57:55,313 - INFO - No duplicates found in column 'ContactName' of suppliers.csv
+2024-11-04 09:57:55,314 - ERROR - 14 duplicates found in column 'ContactTitle' of suppliers.csv
+2024-11-04 09:57:55,314 - INFO - No duplicates found in column 'Address' of suppliers.csv
+2024-11-04 09:57:55,314 - INFO - No duplicates found in column 'City' of suppliers.csv
+2024-11-04 09:57:55,314 - ERROR - 20 duplicates found in column 'Region' of suppliers.csv
+2024-11-04 09:57:55,315 - INFO - No duplicates found in column 'PostalCode' of suppliers.csv
+2024-11-04 09:57:55,315 - ERROR - 13 duplicates found in column 'Country' of suppliers.csv
+2024-11-04 09:57:55,315 - INFO - No duplicates found in column 'Phone' of suppliers.csv
+2024-11-04 09:57:55,315 - ERROR - 15 duplicates found in column 'Fax' of suppliers.csv
+2024-11-04 09:57:55,315 - ERROR - 23 duplicates found in column 'HomePage' of suppliers.csv
+2024-11-04 09:57:55,316 - INFO - Checking date types for sales
+2024-11-04 09:57:55,990 - ERROR - 2155 invalid dates found in sales for 'OrderDate'
+2024-11-04 09:57:55,990 - INFO - Checking UnitPrice values in sales
+2024-11-04 09:57:56,944 - ERROR - 2 negative UnitPrice values found in sales
+2024-11-04 09:57:56,945 - ERROR - 5 non-numeric UnitPrice values found in sales
+2024-11-04 09:57:56,945 - INFO - Checking Quantity values in sales
+2024-11-04 09:57:57,803 - ERROR - 3 non-positive Quantity values found in sales
+2024-11-04 09:57:57,804 - ERROR - 3 non-numeric Quantity values found in sales
+2024-11-04 09:57:57,804 - INFO - Validating 'ProductID' foreign key in sales
+2024-11-04 09:57:58,618 - INFO - Auditing missing values for customers
+2024-11-04 09:57:59,207 - ERROR - 86 missing values found in customers
+2024-11-04 09:57:59,234 - INFO - Auditing duplicates for customers.csv
+2024-11-04 09:57:59,235 - INFO - No duplicates found in column 'CustomerID' of customers.csv
+2024-11-04 09:57:59,235 - INFO - No duplicates found in column 'CompanyName' of customers.csv
+2024-11-04 09:57:59,235 - INFO - No duplicates found in column 'ContactName' of customers.csv
+2024-11-04 09:57:59,236 - ERROR - 78 duplicates found in column 'ContactTitle' of customers.csv
+2024-11-04 09:57:59,236 - INFO - No duplicates found in column 'Address' of customers.csv
+2024-11-04 09:57:59,237 - ERROR - 22 duplicates found in column 'City' of customers.csv
+2024-11-04 09:57:59,237 - ERROR - 72 duplicates found in column 'Region' of customers.csv
+2024-11-04 09:57:59,237 - ERROR - 5 duplicates found in column 'PostalCode' of customers.csv
+2024-11-04 09:57:59,241 - ERROR - 68 duplicates found in column 'Country' of customers.csv
+2024-11-04 09:57:59,241 - INFO - No duplicates found in column 'Phone' of customers.csv
+2024-11-04 09:57:59,242 - ERROR - 21 duplicates found in column 'Fax' of customers.csv
+2024-11-04 09:57:59,242 - INFO - Auditing duplicates for products.csv
+2024-11-04 09:57:59,242 - INFO - No duplicates found in column 'ProductID' of products.csv
+2024-11-04 09:57:59,243 - ERROR - 1 duplicates found in column 'ProductName' of products.csv
+2024-11-04 09:57:59,243 - ERROR - 48 duplicates found in column 'SupplierID' of products.csv
+2024-11-04 09:57:59,244 - ERROR - 69 duplicates found in column 'CategoryID' of products.csv
+2024-11-04 09:57:59,244 - ERROR - 7 duplicates found in column 'QuantityPerUnit' of products.csv
+2024-11-04 09:57:59,245 - ERROR - 15 duplicates found in column 'UnitPrice' of products.csv
+2024-11-04 09:57:59,256 - ERROR - 24 duplicates found in column 'UnitsInStock' of products.csv
+2024-11-04 09:57:59,257 - ERROR - 64 duplicates found in column 'UnitsOnOrder' of products.csv
+2024-11-04 09:57:59,257 - ERROR - 70 duplicates found in column 'ReorderLevel' of products.csv
+2024-11-04 09:57:59,258 - ERROR - 75 duplicates found in column 'Discontinued' of products.csv
+2024-11-04 09:57:59,258 - INFO - Auditing duplicates for sales.csv
+2024-11-04 09:57:59,259 - ERROR - 1325 duplicates found in column 'OrderID' of sales.csv
+2024-11-04 09:57:59,259 - ERROR - 2066 duplicates found in column 'CustomerID' of sales.csv
+2024-11-04 09:57:59,260 - ERROR - 2146 duplicates found in column 'EmployeeID' of sales.csv
+2024-11-04 09:57:59,260 - ERROR - 1673 duplicates found in column 'OrderDate' of sales.csv
+2024-11-04 09:57:59,261 - ERROR - 1699 duplicates found in column 'RequiredDate' of sales.csv
+2024-11-04 09:57:59,262 - ERROR - 1767 duplicates found in column 'ShippedDate' of sales.csv
+2024-11-04 09:57:59,262 - ERROR - 2152 duplicates found in column 'ShipVia' of sales.csv
+2024-11-04 09:57:59,263 - ERROR - 1352 duplicates found in column 'Freight' of sales.csv
+2024-11-04 09:57:59,263 - ERROR - 2065 duplicates found in column 'ShipName' of sales.csv
+2024-11-04 09:57:59,264 - ERROR - 2065 duplicates found in column 'ShipAddress' of sales.csv
+2024-11-04 09:57:59,264 - ERROR - 2085 duplicates found in column 'ShipCity' of sales.csv
+2024-11-04 09:57:59,264 - ERROR - 2135 duplicates found in column 'ShipRegion' of sales.csv
+2024-11-04 09:57:59,265 - ERROR - 2071 duplicates found in column 'ShipPostalCode' of sales.csv
+2024-11-04 09:57:59,265 - ERROR - 2133 duplicates found in column 'ShipCountry' of sales.csv
+2024-11-04 09:57:59,266 - ERROR - 1325 duplicates found in column 'OrderID.1' of sales.csv
+2024-11-04 09:57:59,266 - ERROR - 2078 duplicates found in column 'ProductID' of sales.csv
+2024-11-04 09:57:59,267 - ERROR - 2031 duplicates found in column 'UnitPrice' of sales.csv
+2024-11-04 09:57:59,267 - ERROR - 2094 duplicates found in column 'Quantity' of sales.csv
+2024-11-04 09:57:59,267 - ERROR - 2140 duplicates found in column 'Discount' of sales.csv
+2024-11-04 09:57:59,267 - INFO - Auditing duplicates for suppliers.csv
+2024-11-04 09:57:59,268 - INFO - No duplicates found in column 'SupplierID' of suppliers.csv
+2024-11-04 09:57:59,268 - INFO - No duplicates found in column 'CompanyName' of suppliers.csv
+2024-11-04 09:57:59,269 - INFO - No duplicates found in column 'ContactName' of suppliers.csv
+2024-11-04 09:57:59,269 - ERROR - 14 duplicates found in column 'ContactTitle' of suppliers.csv
+2024-11-04 09:57:59,270 - INFO - No duplicates found in column 'Address' of suppliers.csv
+2024-11-04 09:57:59,270 - INFO - No duplicates found in column 'City' of suppliers.csv
+2024-11-04 09:57:59,270 - ERROR - 20 duplicates found in column 'Region' of suppliers.csv
+2024-11-04 09:57:59,271 - INFO - No duplicates found in column 'PostalCode' of suppliers.csv
+2024-11-04 09:57:59,271 - ERROR - 13 duplicates found in column 'Country' of suppliers.csv
+2024-11-04 09:57:59,272 - INFO - No duplicates found in column 'Phone' of suppliers.csv
+2024-11-04 09:57:59,272 - ERROR - 15 duplicates found in column 'Fax' of suppliers.csv
+2024-11-04 09:57:59,272 - ERROR - 23 duplicates found in column 'HomePage' of suppliers.csv
+2024-11-04 09:57:59,272 - INFO - Vérification des valeurs de Fax pour customers
+2024-11-04 09:57:59,553 - ERROR - 12 valeurs de Fax invalides trouvées dans customers
+2024-11-04 09:57:59,554 - INFO - Auditing missing values for products
+2024-11-04 09:58:00,133 - ERROR - 2 missing values found in products
+2024-11-04 09:58:00,152 - INFO - Auditing duplicates for customers.csv
+2024-11-04 09:58:00,152 - INFO - No duplicates found in column 'CustomerID' of customers.csv
+2024-11-04 09:58:00,153 - INFO - No duplicates found in column 'CompanyName' of customers.csv
+2024-11-04 09:58:00,153 - INFO - No duplicates found in column 'ContactName' of customers.csv
+2024-11-04 09:58:00,153 - ERROR - 78 duplicates found in column 'ContactTitle' of customers.csv
+2024-11-04 09:58:00,153 - INFO - No duplicates found in column 'Address' of customers.csv
+2024-11-04 09:58:00,153 - ERROR - 22 duplicates found in column 'City' of customers.csv
+2024-11-04 09:58:00,154 - ERROR - 72 duplicates found in column 'Region' of customers.csv
+2024-11-04 09:58:00,154 - ERROR - 5 duplicates found in column 'PostalCode' of customers.csv
+2024-11-04 09:58:00,154 - ERROR - 68 duplicates found in column 'Country' of customers.csv
+2024-11-04 09:58:00,154 - INFO - No duplicates found in column 'Phone' of customers.csv
+2024-11-04 09:58:00,155 - ERROR - 21 duplicates found in column 'Fax' of customers.csv
+2024-11-04 09:58:00,155 - INFO - Auditing duplicates for products.csv
+2024-11-04 09:58:00,155 - INFO - No duplicates found in column 'ProductID' of products.csv
+2024-11-04 09:58:00,155 - ERROR - 1 duplicates found in column 'ProductName' of products.csv
+2024-11-04 09:58:00,155 - ERROR - 48 duplicates found in column 'SupplierID' of products.csv
+2024-11-04 09:58:00,156 - ERROR - 69 duplicates found in column 'CategoryID' of products.csv
+2024-11-04 09:58:00,156 - ERROR - 7 duplicates found in column 'QuantityPerUnit' of products.csv
+2024-11-04 09:58:00,156 - ERROR - 15 duplicates found in column 'UnitPrice' of products.csv
+2024-11-04 09:58:00,156 - ERROR - 24 duplicates found in column 'UnitsInStock' of products.csv
+2024-11-04 09:58:00,156 - ERROR - 64 duplicates found in column 'UnitsOnOrder' of products.csv
+2024-11-04 09:58:00,157 - ERROR - 70 duplicates found in column 'ReorderLevel' of products.csv
+2024-11-04 09:58:00,157 - ERROR - 75 duplicates found in column 'Discontinued' of products.csv
+2024-11-04 09:58:00,157 - INFO - Auditing duplicates for sales.csv
+2024-11-04 09:58:00,157 - ERROR - 1325 duplicates found in column 'OrderID' of sales.csv
+2024-11-04 09:58:00,158 - ERROR - 2066 duplicates found in column 'CustomerID' of sales.csv
+2024-11-04 09:58:00,158 - ERROR - 2146 duplicates found in column 'EmployeeID' of sales.csv
+2024-11-04 09:58:00,158 - ERROR - 1673 duplicates found in column 'OrderDate' of sales.csv
+2024-11-04 09:58:00,158 - ERROR - 1699 duplicates found in column 'RequiredDate' of sales.csv
+2024-11-04 09:58:00,159 - ERROR - 1767 duplicates found in column 'ShippedDate' of sales.csv
+2024-11-04 09:58:00,159 - ERROR - 2152 duplicates found in column 'ShipVia' of sales.csv
+2024-11-04 09:58:00,160 - ERROR - 1352 duplicates found in column 'Freight' of sales.csv
+2024-11-04 09:58:00,161 - ERROR - 2065 duplicates found in column 'ShipName' of sales.csv
+2024-11-04 09:58:00,161 - ERROR - 2065 duplicates found in column 'ShipAddress' of sales.csv
+2024-11-04 09:58:00,162 - ERROR - 2085 duplicates found in column 'ShipCity' of sales.csv
+2024-11-04 09:58:00,162 - ERROR - 2135 duplicates found in column 'ShipRegion' of sales.csv
+2024-11-04 09:58:00,163 - ERROR - 2071 duplicates found in column 'ShipPostalCode' of sales.csv
+2024-11-04 09:58:00,163 - ERROR - 2133 duplicates found in column 'ShipCountry' of sales.csv
+2024-11-04 09:58:00,163 - ERROR - 1325 duplicates found in column 'OrderID.1' of sales.csv
+2024-11-04 09:58:00,164 - ERROR - 2078 duplicates found in column 'ProductID' of sales.csv
+2024-11-04 09:58:00,164 - ERROR - 2031 duplicates found in column 'UnitPrice' of sales.csv
+2024-11-04 09:58:00,165 - ERROR - 2094 duplicates found in column 'Quantity' of sales.csv
+2024-11-04 09:58:00,165 - ERROR - 2140 duplicates found in column 'Discount' of sales.csv
+2024-11-04 09:58:00,166 - INFO - Auditing duplicates for suppliers.csv
+2024-11-04 09:58:00,166 - INFO - No duplicates found in column 'SupplierID' of suppliers.csv
+2024-11-04 09:58:00,166 - INFO - No duplicates found in column 'CompanyName' of suppliers.csv
+2024-11-04 09:58:00,167 - INFO - No duplicates found in column 'ContactName' of suppliers.csv
+2024-11-04 09:58:00,167 - ERROR - 14 duplicates found in column 'ContactTitle' of suppliers.csv
+2024-11-04 09:58:00,167 - INFO - No duplicates found in column 'Address' of suppliers.csv
+2024-11-04 09:58:00,168 - INFO - No duplicates found in column 'City' of suppliers.csv
+2024-11-04 09:58:00,168 - ERROR - 20 duplicates found in column 'Region' of suppliers.csv
+2024-11-04 09:58:00,168 - INFO - No duplicates found in column 'PostalCode' of suppliers.csv
+2024-11-04 09:58:00,169 - ERROR - 13 duplicates found in column 'Country' of suppliers.csv
+2024-11-04 09:58:00,169 - INFO - No duplicates found in column 'Phone' of suppliers.csv
+2024-11-04 09:58:00,169 - ERROR - 15 duplicates found in column 'Fax' of suppliers.csv
+2024-11-04 09:58:00,170 - ERROR - 23 duplicates found in column 'HomePage' of suppliers.csv
+2024-11-04 09:58:00,170 - INFO - Checking UnitPrice values in products
+2024-11-04 09:58:00,675 - ERROR - 1 negative UnitPrice values found in products
+2024-11-04 09:58:00,675 - ERROR - 2 non-numeric UnitPrice values found in products
+2024-11-04 09:58:00,676 - INFO - Data audit completed.
+2024-11-04 09:58:01,049 - INFO - Closing down clientserver connection
