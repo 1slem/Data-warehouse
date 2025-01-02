@@ -1,0 +1,104 @@
+2024-11-24 18:59:11,390 - INFO - Starting product sales and stock analysis.
+2024-11-24 18:59:30,011 - INFO - Closing down clientserver connection
+2024-11-24 19:00:49,369 - INFO - Starting product sales and stock analysis.
+2024-11-24 19:00:57,148 - INFO - Closing down clientserver connection
+2024-11-24 19:03:31,430 - INFO - Starting product sales and stock analysis.
+2024-11-24 19:03:42,970 - INFO - Checking for null, missing, and negative values in sales_clean_df
+2024-11-24 19:03:48,097 - ERROR - sales_clean_df - Column 'ShippedDate': 73 null values detected.
+2024-11-24 19:03:52,814 - INFO - Checking for null, missing, and negative values in products_clean_df
+2024-11-24 19:03:54,414 - ERROR - products_clean_df - Column 'UnitsInStock': 3 products with negative stock detected.
+2024-11-24 19:03:54,970 - INFO - Checking for null, missing, and negative values in customers_clean_df
+2024-11-24 19:03:56,787 - INFO - Analyzing active products without sales in the last year.
+2024-11-24 19:03:56,966 - INFO - Inactive products without sales in the last year (detailed):
+2024-11-24 19:03:58,295 - INFO - Joining sales_clean_df and products_clean_df to analyze product sales and stock.
+2024-11-24 19:03:58,454 - INFO - Non-active products (detailed):
+2024-11-24 19:03:59,156 - INFO - {'ProductID': '1', 'TotalSold': 813, 'StockRemaining': '39', 'IsDiscontinued': '1'}
+2024-11-24 19:03:59,156 - INFO - {'ProductID': '17', 'TotalSold': 978, 'StockRemaining': '0', 'IsDiscontinued': '1'}
+2024-11-24 19:03:59,156 - INFO - {'ProductID': '2', 'TotalSold': 1010, 'StockRemaining': '17', 'IsDiscontinued': '1'}
+2024-11-24 19:03:59,156 - INFO - {'ProductID': '24', 'TotalSold': 1125, 'StockRemaining': '20', 'IsDiscontinued': '1'}
+2024-11-24 19:03:59,156 - INFO - {'ProductID': '28', 'TotalSold': 640, 'StockRemaining': '26', 'IsDiscontinued': '1'}
+2024-11-24 19:03:59,156 - INFO - {'ProductID': '29', 'TotalSold': 596, 'StockRemaining': '0', 'IsDiscontinued': '1'}
+2024-11-24 19:03:59,156 - INFO - {'ProductID': '42', 'TotalSold': 675, 'StockRemaining': '26', 'IsDiscontinued': '1'}
+2024-11-24 19:03:59,156 - INFO - {'ProductID': '5', 'TotalSold': 238, 'StockRemaining': '0', 'IsDiscontinued': '1'}
+2024-11-24 19:03:59,157 - INFO - {'ProductID': '53', 'TotalSold': 699, 'StockRemaining': '0', 'IsDiscontinued': '1'}
+2024-11-24 19:03:59,157 - INFO - {'ProductID': '9', 'TotalSold': 45, 'StockRemaining': '-2229', 'IsDiscontinued': '1'}
+2024-11-24 19:03:59,157 - INFO - Most sold products with remaining stock (detailed):
+2024-11-24 19:04:00,321 - INFO - {'ProductID': '60', 'TotalSold': 1571, 'StockRemaining': '19'}
+2024-11-24 19:04:00,321 - INFO - {'ProductID': '59', 'TotalSold': 1384, 'StockRemaining': '-79'}
+2024-11-24 19:04:00,321 - INFO - {'ProductID': '31', 'TotalSold': 1312, 'StockRemaining': '0'}
+2024-11-24 19:04:00,321 - INFO - {'ProductID': '56', 'TotalSold': 1233, 'StockRemaining': '21'}
+2024-11-24 19:04:00,321 - INFO - {'ProductID': '75', 'TotalSold': 1135, 'StockRemaining': '125'}
+2024-11-24 19:04:00,321 - INFO - {'ProductID': '24', 'TotalSold': 1125, 'StockRemaining': '20'}
+2024-11-24 19:04:00,321 - INFO - {'ProductID': '16', 'TotalSold': 1122, 'StockRemaining': '29'}
+2024-11-24 19:04:00,322 - INFO - {'ProductID': '62', 'TotalSold': 1068, 'StockRemaining': '17'}
+2024-11-24 19:04:00,322 - INFO - {'ProductID': '40', 'TotalSold': 1063, 'StockRemaining': '123'}
+2024-11-24 19:04:00,322 - INFO - {'ProductID': '21', 'TotalSold': 1016, 'StockRemaining': '3'}
+2024-11-24 19:04:00,322 - INFO - {'ProductID': '2', 'TotalSold': 1010, 'StockRemaining': '17'}
+2024-11-24 19:04:00,322 - INFO - {'ProductID': '17', 'TotalSold': 978, 'StockRemaining': '0'}
+2024-11-24 19:04:00,322 - INFO - {'ProductID': '71', 'TotalSold': 954, 'StockRemaining': '26'}
+2024-11-24 19:04:00,322 - INFO - {'ProductID': '76', 'TotalSold': 946, 'StockRemaining': '57'}
+2024-11-24 19:04:00,322 - INFO - {'ProductID': '55', 'TotalSold': 903, 'StockRemaining': '115'}
+2024-11-24 19:04:00,322 - INFO - {'ProductID': '13', 'TotalSold': 891, 'StockRemaining': '24'}
+2024-11-24 19:04:00,323 - INFO - {'ProductID': '35', 'TotalSold': 883, 'StockRemaining': '20'}
+2024-11-24 19:04:00,323 - INFO - {'ProductID': '41', 'TotalSold': 868, 'StockRemaining': '85'}
+2024-11-24 19:04:00,323 - INFO - {'ProductID': '51', 'TotalSold': 835, 'StockRemaining': '20'}
+2024-11-24 19:04:00,323 - INFO - {'ProductID': '1', 'TotalSold': 813, 'StockRemaining': '39'}
+2024-11-24 19:04:00,323 - INFO - {'ProductID': '72', 'TotalSold': 806, 'StockRemaining': '14'}
+2024-11-24 19:04:00,323 - INFO - {'ProductID': '68', 'TotalSold': 799, 'StockRemaining': '6'}
+2024-11-24 19:04:00,323 - INFO - {'ProductID': '39', 'TotalSold': 790, 'StockRemaining': '69'}
+2024-11-24 19:04:00,323 - INFO - {'ProductID': '70', 'TotalSold': 787, 'StockRemaining': '1ccv%5'}
+2024-11-24 19:04:00,323 - INFO - {'ProductID': '7', 'TotalSold': 763, 'StockRemaining': '15'}
+2024-11-24 19:04:00,324 - INFO - {'ProductID': '36', 'TotalSold': 759, 'StockRemaining': '112'}
+2024-11-24 19:04:00,324 - INFO - {'ProductID': '77', 'TotalSold': 756, 'StockRemaining': '32'}
+2024-11-24 19:04:00,324 - INFO - {'ProductID': '33', 'TotalSold': 755, 'StockRemaining': '112'}
+2024-11-24 19:04:00,324 - INFO - {'ProductID': '54', 'TotalSold': 755, 'StockRemaining': '21'}
+2024-11-24 19:04:00,324 - INFO - {'ProductID': '26', 'TotalSold': 753, 'StockRemaining': '15'}
+2024-11-24 19:04:00,324 - INFO - {'ProductID': '64', 'TotalSold': 740, 'StockRemaining': '22'}
+2024-11-24 19:04:00,324 - INFO - {'ProductID': '10', 'TotalSold': 724, 'StockRemaining': '31'}
+2024-11-24 19:04:00,324 - INFO - {'ProductID': '19', 'TotalSold': 723, 'StockRemaining': '25'}
+2024-11-24 19:04:00,324 - INFO - {'ProductID': '69', 'TotalSold': 714, 'StockRemaining': '26'}
+2024-11-24 19:04:00,324 - INFO - {'ProductID': '53', 'TotalSold': 699, 'StockRemaining': '0'}
+2024-11-24 19:04:00,325 - INFO - {'ProductID': '65', 'TotalSold': 685, 'StockRemaining': '76'}
+2024-11-24 19:04:00,325 - INFO - {'ProductID': '42', 'TotalSold': 675, 'StockRemaining': '26'}
+2024-11-24 19:04:00,325 - INFO - {'ProductID': '11', 'TotalSold': 666, 'StockRemaining': '22'}
+2024-11-24 19:04:00,325 - INFO - {'ProductID': '28', 'TotalSold': 640, 'StockRemaining': '26'}
+2024-11-24 19:04:00,325 - INFO - {'ProductID': '38', 'TotalSold': 623, 'StockRemaining': '17'}
+2024-11-24 19:04:00,325 - INFO - {'ProductID': '61', 'TotalSold': 603, 'StockRemaining': '1a13'}
+2024-11-24 19:04:00,325 - INFO - {'ProductID': '44', 'TotalSold': 601, 'StockRemaining': '27'}
+2024-11-24 19:04:00,325 - INFO - {'ProductID': '29', 'TotalSold': 596, 'StockRemaining': '0'}
+2024-11-24 19:04:00,325 - INFO - {'ProductID': '23', 'TotalSold': 580, 'StockRemaining': '61'}
+2024-11-24 19:04:00,326 - INFO - {'ProductID': '43', 'TotalSold': 560, 'StockRemaining': '17'}
+2024-11-24 19:04:00,326 - INFO - {'ProductID': '30', 'TotalSold': 550, 'StockRemaining': '10'}
+2024-11-24 19:04:00,326 - INFO - {'ProductID': '46', 'TotalSold': 548, 'StockRemaining': '95'}
+2024-11-24 19:04:00,326 - INFO - {'ProductID': '49', 'TotalSold': 520, 'StockRemaining': '10'}
+2024-11-24 19:04:00,326 - INFO - {'ProductID': '45', 'TotalSold': 508, 'StockRemaining': '5'}
+2024-11-24 19:04:00,326 - INFO - {'ProductID': '18', 'TotalSold': 506, 'StockRemaining': '42'}
+2024-11-24 19:04:00,326 - INFO - {'ProductID': '52', 'TotalSold': 500, 'StockRemaining': '38'}
+2024-11-24 19:04:00,326 - INFO - {'ProductID': '47', 'TotalSold': 485, 'StockRemaining': '36'}
+2024-11-24 19:04:00,326 - INFO - {'ProductID': '34', 'TotalSold': 476, 'StockRemaining': '111'}
+2024-11-24 19:04:00,326 - INFO - {'ProductID': '57', 'TotalSold': 434, 'StockRemaining': '36'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '4', 'TotalSold': 433, 'StockRemaining': '53'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '63', 'TotalSold': 410, 'StockRemaining': '24'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '58', 'TotalSold': 405, 'StockRemaining': '62'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '8', 'TotalSold': 372, 'StockRemaining': '6'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '27', 'TotalSold': 365, 'StockRemaining': '49'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '22', 'TotalSold': 348, 'StockRemaining': '-104'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '12', 'TotalSold': 344, 'StockRemaining': '86'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '14', 'TotalSold': 334, 'StockRemaining': '35'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '3', 'TotalSold': 328, 'StockRemaining': '13'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '25', 'TotalSold': 318, 'StockRemaining': '76'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '20', 'TotalSold': 313, 'StockRemaining': '40'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '74', 'TotalSold': 297, 'StockRemaining': '4'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '73', 'TotalSold': 293, 'StockRemaining': '101'}
+2024-11-24 19:04:00,327 - INFO - {'ProductID': '6', 'TotalSold': 271, 'StockRemaining': '120'}
+2024-11-24 19:04:00,328 - INFO - {'ProductID': '32', 'TotalSold': 250, 'StockRemaining': '9'}
+2024-11-24 19:04:00,328 - INFO - {'ProductID': '66', 'TotalSold': 239, 'StockRemaining': '4'}
+2024-11-24 19:04:00,328 - INFO - {'ProductID': '5', 'TotalSold': 238, 'StockRemaining': '0'}
+2024-11-24 19:04:00,328 - INFO - {'ProductID': '50', 'TotalSold': 195, 'StockRemaining': '65'}
+2024-11-24 19:04:00,328 - INFO - {'ProductID': '67', 'TotalSold': 184, 'StockRemaining': '52'}
+2024-11-24 19:04:00,328 - INFO - {'ProductID': '48', 'TotalSold': 138, 'StockRemaining': '15'}
+2024-11-24 19:04:00,328 - INFO - {'ProductID': '37', 'TotalSold': 125, 'StockRemaining': '11'}
+2024-11-24 19:04:00,328 - INFO - {'ProductID': '15', 'TotalSold': 122, 'StockRemaining': '39'}
+2024-11-24 19:04:00,328 - INFO - {'ProductID': '9', 'TotalSold': 45, 'StockRemaining': '-2229'}
+2024-11-24 19:04:00,328 - INFO - Product sales and stock analysis completed.
+2024-11-24 19:04:00,339 - INFO - Closing down clientserver connection

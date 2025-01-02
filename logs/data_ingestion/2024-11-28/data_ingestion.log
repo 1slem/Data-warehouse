@@ -1,0 +1,5 @@
+2024-11-28 14:41:44,381 - INFO - Données de sales enregistrées avec succès dans la couche Bronze.
+2024-11-28 14:41:45,410 - INFO - Données de customers enregistrées avec succès dans la couche Bronze.
+2024-11-28 14:41:46,564 - INFO - Données de suppliers enregistrées avec succès dans la couche Bronze.
+2024-11-28 14:41:47,541 - INFO - Données de products enregistrées avec succès dans la couche Bronze.
+2024-11-28 14:41:48,005 - INFO - Closing down clientserver connection

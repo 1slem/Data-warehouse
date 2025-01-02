@@ -1,0 +1,4 @@
+2024-11-24 19:10:02,460 - INFO - Starting customer data anomaly detection.
+2024-11-24 19:10:12,822 - INFO - Checking for null, missing, and negative values in customers_clean_df
+2024-11-24 19:10:19,438 - INFO - Customer data anomaly detection completed.
+2024-11-24 19:10:19,455 - INFO - Closing down clientserver connection
